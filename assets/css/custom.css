@@ -10,6 +10,10 @@
   color: #691c17 !important;
 }
 
+.text-secondary {
+  color: #fcd13e !important;
+}
+
 .hero-content h3 {
   line-height: 2.25rem;
 }
@@ -158,6 +162,18 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 30px;
+}
+
+.team .team-member .member-img::after {
+  opacity: 1;
+}
+
+.team .team-member .member-img::after {
+  background: linear-gradient(
+    180deg,
+    transparent 0%,
+    color-mix(in srgb, var(--primary-color), transparent 20%) 100%
+  );
 }
 
 @media (max-width: 991px) {

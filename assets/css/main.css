@@ -15,6 +15,7 @@
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root {
+  --primary-color: #691c17;
   --background-color: #ffffff; /* Background color for the entire website, including individual sections */
   --default-color: #342c26; /* Default color used for the majority of the text content across the entire website */
   --heading-color: #2c1607; /* Color for headings, subheadings and title throughout the website */
@@ -829,7 +830,7 @@ section,
 --------------------------------------------------------------*/
 .section-title {
   text-align: center;
-  padding-bottom: 60px;
+  padding-bottom: 3.25rem;
   position: relative;
 }
 
