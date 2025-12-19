@@ -30,8 +30,8 @@
     />
     <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
     <link
-      href="assets/vendor/glightbox/css/glightbox.min.css"
       rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/css/lightgallery-bundle.min.css"
     />
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
@@ -46,8 +46,6 @@
         class="container-fluid container-xl position-relative d-flex align-items-center bg-light rounded-2"
       >
         <a href="index.html" class="logo d-flex align-items-center me-auto">
-          <!-- Uncomment the line below if you also wish to use an image logo -->
-          <!-- <img src="assets/img/logo.webp" alt=""> -->
           <h4 class="sitename m-0">
             <span class="p-2 bg-primary rounded-circle"
               ><img
@@ -61,12 +59,12 @@
 
         <nav id="navmenu" class="navmenu">
           <ul>
-            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="#home" class="active">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#academics">Academics</a></li>
             <li><a href="#!">Admissions</a></li>
             <li><a href="#cultural-activities">Activities</a></li>
-            <li><a href="#!">Gallery</a></li>
+            <li><a href="#gallery">Gallery</a></li>
             <li><a href="#!">Contact</a></li>
           </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
@@ -80,7 +78,7 @@
       </div>
     </header>
 
-    <main class="main">
+    <main class="main" id="home">
       <!-- Hero Section -->
       <section id="hero" class="hero section dark-background">
         <div class="hero-video-container">
@@ -647,6 +645,150 @@
           </div>
         </div>
       </section>
+
+      <section id="gallery" class="section bg-academics">
+        <div class="container section-title" data-aos="fade-up">
+          <button
+            type="button"
+            class="btn btn-light rounded-pill px-5 py-2 shadow-sm btn-pill-soft fs-5 mb-3"
+            style="
+              background: #fff;
+              border: 1px solid rgba(0, 0, 0, 0.06);
+              color: #7b2b2b;
+            "
+          >
+            Cultural Activities
+          </button>
+
+          <h3 class="text-primary my-3">Moments of Learning & Culture</h3>
+          <p>
+            A glimpse into daily life at Tamil Heritage School - where tradition
+            meets education.
+          </p>
+        </div>
+        <div class="container py-4">
+          <div id="tileGallery" class="tile-gallery">
+            <a
+              class="tile"
+              href="assets/img/g1.jpg"
+              data-sub-html="<h6 class='text-white'>Caption 1</h6>"
+              data-aos="zoom-in"
+              data-aos-delay="0"
+            >
+              <img src="assets/img/g1.jpg" alt="Gallery image 1" />
+              <span class="tile-overlay">
+                <i class="bi bi-arrows-fullscreen"></i>
+              </span>
+            </a>
+
+            <a
+              class="tile"
+              href="assets/img/g2.jpg"
+              data-sub-html="<h6 class='text-white'>Caption 2</h6>"
+              class="tile"
+              data-aos="zoom-in"
+              data-aos-delay="80"
+            >
+              <img src="assets/img/g2.jpg" alt="Gallery image 2" />
+              <span class="tile-overlay">
+                <i class="bi bi-arrows-fullscreen"></i>
+              </span>
+            </a>
+
+            <a
+              class="tile"
+              href="assets/img/g3.jpg"
+              data-sub-html="<h6 class='text-white'>Caption 3</h6>"
+              class="tile"
+              data-aos="zoom-in"
+              data-aos-delay="160"
+            >
+              <img src="assets/img/g3.jpg" alt="Gallery image 3" />
+              <span class="tile-overlay">
+                <i class="bi bi-arrows-fullscreen"></i>
+              </span>
+            </a>
+
+            <a
+              class="tile"
+              href="assets/img/g4.jpg"
+              data-sub-html="<h6 class='text-white'>Caption 4</h6>"
+              class="tile"
+              data-aos="zoom-in"
+              data-aos-delay="240"
+            >
+              <img src="assets/img/g4.jpg" alt="Gallery image 4" />
+              <span class="tile-overlay">
+                <i class="bi bi-arrows-fullscreen"></i>
+              </span>
+            </a>
+
+            <a
+              class="tile"
+              href="assets/img/g5.jpg"
+              data-sub-html="<h6 class='text-white'>Caption 5</h6>"
+              class="tile"
+              data-aos="zoom-in"
+              data-aos-delay="320"
+            >
+              <img src="assets/img/g5.jpg" alt="Gallery image 5" />
+              <span class="tile-overlay">
+                <i class="bi bi-arrows-fullscreen"></i>
+              </span>
+            </a>
+
+            <a
+              class="tile"
+              href="assets/img/g6.jpg"
+              data-sub-html="<h6 class='text-white'>Caption 6</h6>"
+              class="tile"
+              data-aos="zoom-in"
+              data-aos-delay="400"
+            >
+              <img src="assets/img/g6.jpg" alt="Gallery image 6" />
+              <span class="tile-overlay">
+                <i class="bi bi-arrows-fullscreen"></i>
+              </span>
+            </a>
+            <a
+              class="tile"
+              href="assets/img/g7.jpg"
+              data-sub-html="<h6 class='text-white'>Caption 7</h6>"
+              class="tile"
+              data-aos="zoom-in"
+              data-aos-delay="480"
+            >
+              <img src="assets/img/g7.jpg" alt="Gallery image 7" />
+              <span class="tile-overlay">
+                <i class="bi bi-arrows-fullscreen"></i>
+              </span>
+            </a>
+            <a
+              class="tile"
+              href="assets/img/g8.jpg"
+              data-sub-html="<h6 class='text-white'>Caption 8</h6>"
+              class="tile"
+              data-aos="zoom-in"
+              data-aos-delay="560"
+            >
+              <img src="assets/img/g8.jpg" alt="Gallery image 8" />
+              <span class="tile-overlay">
+                <i class="bi bi-arrows-fullscreen"></i>
+              </span>
+            </a>
+            <!-- repeat -->
+          </div>
+
+          <div class="text-center">
+            <a
+              href="#!"
+              class="btn btn-primary px-5 py-3 mt-3 rounded-pill fs-5"
+            >
+              View Full Gallery
+            </a>
+          </div>
+        </div>
+      </section>
     </main>
 
     <a
@@ -666,8 +808,13 @@
     <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
     <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
     <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/lightgallery.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/plugins/thumbnail/lg-thumbnail.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/plugins/zoom/lg-zoom.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/plugins/autoplay/lg-autoplay.umd.min.js"></script>
 
     <!-- Main JS File -->
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/custom.js"></script>
   </body>
 </html>
