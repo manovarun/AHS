@@ -23,6 +23,10 @@
   --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --overlay-color: #eae2d5; /* Overlay color used for elements like modals, pop-ups, or sections that require a semi-transparent background overlay */
   --contrast-color: #342c26; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
+  --th-maroon: #6b1c16;
+  --th-border: rgba(15, 23, 42, 0.1);
+  --th-muted: rgba(18, 24, 40, 0.72);
+  --th-soft: rgba(15, 23, 42, 0.04);
 }
 
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
